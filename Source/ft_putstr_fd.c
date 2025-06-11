@@ -6,7 +6,7 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/23 17:44:29 by ptavares          #+#    #+#             */
-/*   Updated: 2025/04/23 20:37:30 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/06/11 16:08:25 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (!s)
+		return ;
 	while (*s)
 	{
 		ft_putchar_fd(*s, fd);

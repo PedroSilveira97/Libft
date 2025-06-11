@@ -6,7 +6,7 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/08 19:47:00 by ptavares          #+#    #+#             */
-/*   Updated: 2025/04/17 19:27:29 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/06/11 15:59:38 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@ excluding the terminating null byte ('\0') */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
-	int	len;
+	size_t	len;
 
 	len = 0;
 	while (str[len])

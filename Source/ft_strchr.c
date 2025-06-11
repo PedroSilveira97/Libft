@@ -6,12 +6,11 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/09 15:59:38 by ptavares          #+#    #+#             */
-/*   Updated: 2025/04/24 13:31:22 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/06/11 16:01:50 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 char	*ft_strchr(const char *s, int c)
 {

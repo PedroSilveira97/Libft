@@ -6,13 +6,13 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 17:24:38 by ptavares          #+#    #+#             */
-/*   Updated: 2025/04/29 18:53:00 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/06/11 16:00:56 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	wcount(const char *s, char c)
+static ssize_t	wcount(const char *s, char c)
 {
 	size_t	i;
 	size_t	count;
@@ -28,7 +28,7 @@ size_t	wcount(const char *s, char c)
 	return (count);
 }
 
-char	*alloc_word(const char *s, char c)
+static char	*alloc_word(const char *s, char c)
 {
 	const char	*word;
 	char		*res;
@@ -55,7 +55,7 @@ char	*alloc_word(const char *s, char c)
 	return (res);
 }
 
-int	ft_freemalloc(char **array, int i)
+static int	ft_freemalloc(char **array, int i)
 {
 	if (!array[i - 1])
 	{

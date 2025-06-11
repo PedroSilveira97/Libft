@@ -6,15 +6,11 @@
 /*   By: ptavares <ptavares@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/24 12:15:40 by ptavares          #+#    #+#             */
-/*   Updated: 2025/04/24 13:23:25 by ptavares         ###   ########.fr       */
+/*   Updated: 2025/06/11 16:02:20 by ptavares         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-
-/* The strrchr() function returns a pointer to the last occurrence of  the
-character c in the string s. */
 
 char	*ft_strrchr(const char *s, int c)
 {
